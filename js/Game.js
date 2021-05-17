@@ -104,6 +104,7 @@ class Game{
       end(){
         console.log("Game Ended");
         console.log(player.rank);
+          player.update();
       }
     
     
